@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int jam_sekarang;
+    cout<<"Masukkan jam sekarang:";
+    cin>>jam_sekarang;
+    
+        if(4<jam_sekarang && jam_sekarang<7){
+        printf("jangan lupa sholat shubuh");
+    }
+    else if(12<jam_sekarang && jam_sekarang<14){
+        printf("jangan lupa sholat dzuhur");
+    }
+    else if(15<jam_sekarang && jam_sekarang<17){
+        printf("jangan lupa sholat ashar");
+    }
+    else if(18<jam_sekarang && jam_sekarang<19){
+        printf("jangan lupa sholat maghrib");
+    }
+    else if(19<jam_sekarang && jam_sekarang<24){
+        printf("jangan lupa sholat isya");
+    }
+    return 0;
+}
